@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ element, index }) => {
   return (
     <div className="col-md-4 mt-5" key={index}>
-      <div className="card" style={{ width: "16rem", height: "350px" }}>
+      <div className="card h-100">
         <img
           src={element.image}
           style={{ height: "150px" }}
